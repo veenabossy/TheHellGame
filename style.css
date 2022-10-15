@@ -1,0 +1,114 @@
+.bg {
+    background-image: url("BG.png");
+    height: 100vh;
+    width: 100%;
+    background-size: 100vw 100vh;
+    position: absolute;
+    background-repeat: repeat-x;
+}
+
+.body {
+    margin: 0px;
+    overflow: hidden;
+}
+
+.character {
+    height: 787.571px;
+    width: 1500px;
+    transform: scale(0.6);
+    position: absolute;
+    margin-top: 100px;
+    margin-left: -500px;
+}
+
+.zombie1 {
+    height: 400px;
+    width: 500px;
+    transform: scaleX(-1);
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 1000px;
+}
+
+.outerMarginViking {
+    margin-top: 200px;
+    margin-left: 120px;
+    height: 20px;
+    width: 250px;
+    border-style: solid;
+    border-color: yellow;
+    border-width: 2px;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.marginViking {
+    height: 20px;
+    width: 250px;
+    background-color: yellow;
+    border-radius: 9px;
+}
+
+.outerMarginZombie {
+    margin-top: 200px;
+    margin-left: 1200px;
+    height: 20px;
+    width: 150px;
+    border-style: solid;
+    border-color: red;
+    border-width: 2px;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.marginZombie {
+    height: 20px;
+    width: 150px;
+    background-color: red;
+    border-radius: 9px;
+}
+
+.scoreTag {
+    text-align: center;
+    margin-left: 600px;
+    margin-Top: 100px;
+    width: 400px;
+    height: 50px;
+    border-style: solid;
+    border-color: black;
+    background-color: rgb(200, 224, 245);
+    border-radius: 10px;
+    position: absolute;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+.n {
+    width: 500px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: rgb(114, 4, 4);
+    color: white;
+    border-style: solid;
+    border-color: black;
+    position: absolute;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.big {
+    height: 100vh;
+    width: 100%;
+    background-size: 100vw 100vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.none {
+    display: none;
+}
